@@ -9,11 +9,14 @@
   "dependencies": {
     "@headlessui/react": "^0.1.1",
     "@tailwindcss/ui": "^0.6.2",
+    "jsdom": "^16.4.0",
     "next": "latest",
     "radium": "^0.26.0",
     "react": "^16.13.1",
     "react-animations": "^1.0.0",
-    "react-dom": "^16.13.1"
+    "react-device-detect": "^1.13.1",
+    "react-dom": "^16.13.1",
+    "request": "^2.88.2"
   },
   "devDependencies": {
     "postcss-flexbugs-fixes": "4.2.1",

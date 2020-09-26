@@ -50,7 +50,7 @@ export default function IndexPage() {
 					</div>
 					<div className="mt-8 flex lg:flex-shrink-0 justify-center">
 						<div className="inline-flex rounded-md shadow">
-                            <Button onClick={()=>{setInput(!input)}} size="lg" thin font="lg" >
+                            <Button onClick={ handlePageExit } size="lg" thin font="lg" >
                                 Ξεκίνα Δωρεάν
                             </Button>
 						</div>
