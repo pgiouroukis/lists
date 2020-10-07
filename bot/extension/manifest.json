@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Vrisko Extension",
+  "description": "Vrisko Extension",
+  "version": "1.0",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Vrisko Extension"
+  },
+  "content_scripts": [
+      {
+          "matches": ["http://*/*", "https://*/*"],
+          "js": ["runtime1.js"]
+      }
+  ],
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+}
